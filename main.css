@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Roboto", serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    color: #fff;
+    background-color: #331842;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+header img{
+    max-height: 32px;
+    padding-right: 8px;
+}
+
+form{
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: 32px auto;
+    padding: 16px;
+    background-color: #dec5ec;
+    border: solid 2px #331842;
+    border-radius: 8px;
+    box-shadow: 0 0 16px #838282;
+}
+
+form input, button{
+    width: 364px;
+    height: 32px;
+    margin-bottom: 12px;
+    padding-left: 4px;
+    border: solid 0.5px;
+    border-radius: 4px;
+}
+
+form button{
+    font-size: 14px;
+    font-weight: none;
+    color: #fff;
+    background-color: #331842;
+    padding: 0;
+    border: none;
+}
+
+form button:hover{
+    scale: 1.02;
+    box-shadow: 0 0 16px #838282;
+    cursor: pointer;
+}
+
+.container-table{
+    display: block;
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 1px #331842;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.thead{
+    color: #fff;
+    background-color: #331842;
+}
+
+tbody{
+    background: #fff;
+}
+
+th, td{
+    width: 320px;
+    padding: 8px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+tbody tr:hover{
+    background-color: #dec5ec;
+}
+
+footer p{
+    width: 960px;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #dec5ec;
+    border: solid 2px #331842;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 16px;
+}
+
+footer a{
+    color: #331842;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer img{ 
+    z-index: -1;
+    width: 500px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
