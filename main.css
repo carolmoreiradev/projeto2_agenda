@@ -95,13 +95,12 @@ tbody tr:hover{
 footer p{
     width: 960px;
     padding: 8px;
+    margin: 32px 0;
     text-align: center;
     font-size: 15px;
     background-color: #dec5ec;
     border: solid 2px #331842;
     border-radius: 8px;
-    position: absolute;
-    bottom: 16px;
 }
 
 footer a{
